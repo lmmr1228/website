@@ -7,4 +7,6 @@ XD
 That image is not me. I swear it's not me
 It's not me  
 LETS PORT A GAME INTO THE SITE
-OK OPSEC GOD I WILL FIND ONE
+OK OPSEC GOD I WILL FIND ONE  
+
+K THX KEEP THIS ON THE DL (DOWN LOW)
