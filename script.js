@@ -1,7 +1,7 @@
 const button = document.getElementById('Button');
 const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-button.addEventListener('click', function(event) {
+button.addEventListener('click', async function(event) {
   event.currentTarget.style.backgroundColor = 'blue';
   this.innerText = 'Opening';
   await wait(2000);
