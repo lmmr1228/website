@@ -1,10 +1,9 @@
-hi I'm Liam and I'm Silas and I'm coding and opsec
-bros mad
-XD
-XD
-XD
-XD
-That image is not me. I swear it's not me
+bros mad  
+XD  
+XD  
+XD  
+XD  
+That image is not me. I swear it's not me  
 It's not me  
 LETS PORT A GAME INTO THE SITE
 OK OPSEC GOD I WILL FIND ONE  
