@@ -13,6 +13,10 @@ button {
   width: 25vh;
   aspect-ratio: 1;
   transition: transform 0.2s ease-in-out;
+  font-size: clamp(1.5rem, 2vw + 1rem, 3rem);
+  font-weight: bold;
+  border-radius: 20px;
+  z-index: 500;
 }
 
 button:hover {
