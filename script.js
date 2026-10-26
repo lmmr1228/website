@@ -8,7 +8,7 @@ button.addEventListener('click', function(event) {
 
   if (tab) {
     tab.location.href =
-      'https://edwebcontent.ed.ac.uk/sites/default/files/atoms/files/candidatestatementross.pdf';
+      'http://github.aeonify.org/game/';
   } else {
     this.innerText = 'Popup blocked';
   }
