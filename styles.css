@@ -4,12 +4,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height:100vh;
     background-image: url(https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height:100vh;
+}
+
+h1 {
+    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    color: White;
+    font-size:100px;
+    margin-bottom: 0px;
 }
 
 #Button {
