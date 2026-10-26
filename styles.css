@@ -25,7 +25,7 @@ h1 {
     color: White;
     background-color: rgb(0, 150, 230);
     width: 50vh;
-    height: 100px;
+    aspect-ratio: 2;
     font-size: 65px;
     font-weight: bold;
     border-radius: 25px;
@@ -34,11 +34,11 @@ h1 {
 }
 
 #Button:hover {
-    transform: scale(1.1);
+    width: 55vh;
     background-color: rgb(2, 120, 184);
 }
 
 #Button:active {
-    transform: scale(.9);
+    width: 45vh;
     background-color: rgb(1, 87, 133);
 }
