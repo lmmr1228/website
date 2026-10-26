@@ -1,0 +1,19 @@
+body {
+    font-family: Inter, Sans-Serif;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+#Button {
+    border: 0px;
+    color: White;
+    background-color: Blue;
+    width: 50vh;
+    height: 100px;
+    font-size: 65px;
+    font-weight: bold;
+    border-radius: 25px;
+}
