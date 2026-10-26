@@ -16,10 +16,11 @@ body {
 h1 {
     font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
     color: White;
-    font-size: clamp(1.5rem, 2vw + 1rem, 3rem);
+    font-size: 8rem;
     width: 65vh;
     aspect-ratio: 1.5;
     margin-bottom: 0px;
+    align-text: center;
 }
 
 #Button {
