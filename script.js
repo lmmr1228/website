@@ -1,7 +1,7 @@
 const button = document.getElementById('Button');
 
 button.addEventListener('click', function(event) {
-  const tab = window.open('about:blank', '_blank');
+  const tab = window
 
   event.currentTarget.style.backgroundColor = 'blue';
   this.innerText = 'Opened tab';
