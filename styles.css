@@ -5,15 +5,32 @@ body {
     align-items: center;
     justify-content: center;
     height:100vh;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/HuGGeENt6kGyixe3hT9tnY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height:100vh;
 }
 
 #Button {
     border: 0px;
     color: White;
-    background-color: Blue;
+    background-color: rgb(0, 150, 230);
     width: 50vh;
     height: 100px;
     font-size: 65px;
     font-weight: bold;
     border-radius: 25px;
+    transition: transform 0.1s ease-in-out;
+    will-change: transform;
+}
+
+#Button:hover {
+    transform: scale(1.1);
+    background-color: rgb(2, 120, 184);
+}
+
+#Button:active {
+    transform: scale(.9);
+    background-color: rgb(1, 87, 133);
 }
