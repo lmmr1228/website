@@ -8,7 +8,7 @@ button.addEventListener('click', function(event) {
 
   if (tab) {
     tab.location.href =
-      'http://github.aeonify.org/game/';
+      'https://github.aeonify.org/game/';
   } else {
     this.innerText = 'Popup blocked';
   }
