@@ -20,7 +20,7 @@ h1 {
     width: 65vh;
     aspect-ratio: 1.5;
     margin-bottom: 0px;
-    align-text: center;
+    text-align: center;
 }
 
 #Button {
