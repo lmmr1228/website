@@ -36,8 +36,16 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          path: |
+            dist/
+            !dist/**/*.map
+            !dist/**/*.log
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+      - name: Compress artifacts
+        run: tar -czf build.tar.gz dist/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build-compressed
+          path: build.tar.gz
