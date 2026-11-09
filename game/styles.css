@@ -1,6 +1,7 @@
 body {
   align-items: center;
   display: grid;
+  flex-direction: row;
   justify-content: center;
   height: 100vh;
   margin: 20px;
