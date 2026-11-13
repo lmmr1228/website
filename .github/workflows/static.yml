@@ -26,15 +26,12 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
-      - name: Clean up map and log files
-        run: find . -type f \( -name "*.map" -o -name "*.log" \) -delete
-
+      - name: Remove map and log files
+        run: find dist/ -type f \( -name "*.map" -o -name "*.log" \) -delete
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
-
+          path: dist/
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
