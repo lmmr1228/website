@@ -31,3 +31,12 @@ button:active {
   width: 27.5vh;
   background-color: rgb(0, 98, 173);
 }
+
+.panel {
+  border-radius: 25px;
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+  border: 2px black;
+  background-color: aqua;
+}
